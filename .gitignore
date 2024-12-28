@@ -19,7 +19,6 @@ bin/
 gen/
 out/
 build/
-/local.properties
 .navigation/
 captures/
 *.hprof
@@ -46,9 +45,6 @@ outputs/
 
 # Gradle
 .gradle/
-gradle/
-gradlew
-gradlew.bat
 
 # Version control
 .svn
