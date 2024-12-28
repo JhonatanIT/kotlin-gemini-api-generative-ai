@@ -72,7 +72,6 @@ lint-results*.html
 
 # IDEA
 *.iws
-*.iml
 *.ipr
 
 # Kotlin DSL
@@ -112,20 +111,12 @@ gradle-wrapper.properties
 # Ignore generated files by Android Studio
 .idea/caches/
 .idea/libraries/
-.idea/modules.xml
-.idea/navEditor.xml
-.idea/assetWizardSettings.xml
 
 # Ignore generated files by Kotlin
-*.class
 *.kotlin_module
 
 # Ignore generated files by the build system
-build/
 outputs/
-
-# Ignore local configuration files
-local.properties
 
 # Ignore version control system files
 .git/
@@ -137,28 +128,15 @@ local.properties
 *.swp
 
 # Ignore OS-specific files
-.DS_Store
 Thumbs.db
 
 # Ignore personal settings files
 .idea/
-*.iml
-*.ipr
-*.iws
 
 # Ignore build system files
-.gradle/
-build/
 gradle/
 gradlew
 gradlew.bat
-
-# Ignore generated files
-gen/
-out/
-
-# Ignore log files
-*.log
 
 # Ignore test results
 test-results/
@@ -171,105 +149,3 @@ docs/
 
 # Ignore third-party libraries
 libs/
-
-# Ignore IDE-specific files
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# Ignore build system files
-.gradle/
-build/
-gradle/
-gradlew
-gradlew.bat
-
-# Ignore generated files
-gen/
-out/
-
-# Ignore log files
-*.log
-
-# Ignore test results
-test-results/
-
-# Ignore code coverage reports
-coverage/
-
-# Ignore documentation
-docs/
-
-# Ignore third-party libraries
-libs/
-
-# Ignore IDE-specific files
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# Ignore build system files
-.gradle/
-build/
-gradle/
-gradlew
-gradlew.bat
-
-# Ignore generated files
-gen/
-out/
-
-# Ignore log files
-*.log
-
-# Ignore test results
-test-results/
-
-# Ignore code coverage reports
-coverage/
-
-# Ignore documentation
-docs/
-
-# Ignore third-party libraries
-libs/
-
-# Ignore IDE-specific files
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# Ignore build system files
-.gradle/
-build/
-gradle/
-gradlew
-gradlew.bat
-
-# Ignore generated files
-gen/
-out/
-
-# Ignore log files
-*.log
-
-# Ignore test results
-test-results/
-
-# Ignore code coverage reports
-coverage/
-
-# Ignore documentation
-docs/
-
-# Ignore third-party libraries
-libs/
-
-# Ignore IDE-specific files
-.idea/
-*.iml
-*.ipr
-*.iws

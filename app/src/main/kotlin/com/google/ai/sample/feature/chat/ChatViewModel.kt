@@ -76,12 +76,16 @@ class ChatViewModel(
                 }
             } catch (e: Exception) {
                 _uiState.value.replaceLastPendingMessage()
-                _uiState.value.addMessage(
+                e.localizedMessage?.let {
                     ChatMessage(
-                        text = e.localizedMessage,
+                        text = it,
                         participant = Participant.ERROR
                     )
-                )
+                }?.let {
+                    _uiState.value.addMessage(
+                        it
+                    )
+                }
             }
         }
     }
