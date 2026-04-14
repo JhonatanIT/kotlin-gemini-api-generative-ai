@@ -69,7 +69,7 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.9.7")
 
     // Required for one-shot operations (to use `ListenableFuture` from Guava Android)
-    implementation("com.google.guava:guava:33.5.0-jre")
+    implementation("com.google.guava:guava:33.6.0-jre")
 
     // Required for streaming operations (to use `Publisher` from Reactive Streams)
     implementation("org.reactivestreams:reactive-streams:1.0.4")
